@@ -5,16 +5,16 @@ using namespace std;
 void main(){
 	bool t=true;
 	int n,k;
-	char c;
+	char c='E';
 	cout<<"数组大小:";
 	cin>>n;
 	fun f1(n);
 	while (1){
-		cout<<"输入R进行数组输入，输入P打印数组，输入E结束"<<endl;
+		if ((c=='E')||(c=='P')||(c=='R')) {	cout<<"输入R进行数组输入，输入P打印数组，输入E结束"<<endl; }
 		cin>>c;
 		if (c=='E') {exit(0);}
 		else if (c=='P') {f1.pri();}
-		else {
+		else if (c=='R'){
 			cout<<"输入个数：";
 			cin>>n;
 			for (int i=1;i<=n;i++){
