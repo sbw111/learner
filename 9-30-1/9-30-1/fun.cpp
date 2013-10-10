@@ -1,16 +1,14 @@
 #include"fun.h"
 #include<iostream>
 using namespace std;
-bool fun::add(int num)
-{
-	if (len<maxn){
-		len++; a[len]=num; return true;
+int fun::read(int x){
+	if (x>maxn){
+		cout<<"Error!";
+		return -1000;
 	}
-	else return false;
+	else return a[x];
 }
-void fun::pri(){
-	for (int i=1;i<=len;i++){
-		cout<<a[i]<<" ";
-	}
-	cout<<endl;
+void fun::write(int n,int m){
+	if (n>maxn) cout<<"Error!"<<endl;
+	else a[n]=m;
 }
