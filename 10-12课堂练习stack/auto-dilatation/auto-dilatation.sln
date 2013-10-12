@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto-dilatation", "auto-dilatation\auto-dilatation.vcxproj", "{C2F911F5-0862-4466-9A0E-B607F72D36AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F911F5-0862-4466-9A0E-B607F72D36AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2F911F5-0862-4466-9A0E-B607F72D36AD}.Debug|Win32.Build.0 = Debug|Win32
+		{C2F911F5-0862-4466-9A0E-B607F72D36AD}.Release|Win32.ActiveCfg = Release|Win32
+		{C2F911F5-0862-4466-9A0E-B607F72D36AD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
