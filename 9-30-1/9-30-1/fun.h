@@ -1,8 +1,8 @@
-class fun{
+class arra{
 	private:
 		int maxn,a[1000];
 	public:
-		fun (int x=100)
+		arra (int x=100)
 		{
 			maxn=x; 
 		}

@@ -4,7 +4,7 @@
 using namespace std;
 void main(){
 	int n,i,j,p;
-	fun f(100);
+	arra f(100);
 	cout<<"输入N并输入数组：";
 	cin>>n;
 	for (i=1;i<=n;i++) {
