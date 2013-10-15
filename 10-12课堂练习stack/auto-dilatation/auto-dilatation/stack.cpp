@@ -16,10 +16,10 @@ bool stack1::isempty(){
 	else return false;
 }
 void stack1::print(){
-	Node* p=head->next;
-	while (p){
+	Node* p=head;
+	while ((p=p->next)!=NULL){
 		cout<<p->data<<' ';
-		p=p->next;
+//		p=p->next;
 	}
 	cout<<endl;
 }

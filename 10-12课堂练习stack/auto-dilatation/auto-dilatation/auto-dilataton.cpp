@@ -11,10 +11,10 @@ void main(){
 		cin>>n;
 		if (n==1){
 			cin>>i;
-			a.push(i);
+			(a).push(i);
 		}
-		else if (n==2){a.pop();}
-		else if (n==3){a.print();}
+		else if (n==2){(a).pop();}
+		else if (n==3){(a).print();}
 		else exit(0);
 	}
 }

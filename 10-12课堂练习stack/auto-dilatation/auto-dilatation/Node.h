@@ -1,10 +1,9 @@
-//#include<iostream>
+#include<iostream>
 class Node{
 	public:
-		Node(int n){
-			data=n; 
+		Node(int n=0){
+			data=n; next=NULL;
 		};
-		Node* next;
-		Node(){};
 		int data;
+		Node* next;
 }; 
