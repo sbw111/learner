@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gradesmanage_oo", "gradesmanage_oo\gradesmanage_oo.vcxproj", "{AB481DCE-4AC9-434E-8658-92B81A7B11C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB481DCE-4AC9-434E-8658-92B81A7B11C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB481DCE-4AC9-434E-8658-92B81A7B11C6}.Debug|Win32.Build.0 = Debug|Win32
+		{AB481DCE-4AC9-434E-8658-92B81A7B11C6}.Release|Win32.ActiveCfg = Release|Win32
+		{AB481DCE-4AC9-434E-8658-92B81A7B11C6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
