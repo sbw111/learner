@@ -1,0 +1,26 @@
+﻿生成启动时间为 2013/10/29 星期二 19:36:18。
+     1>项目“C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Safearray\Safearray.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Safearray.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         e:\Soft\Visual Studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Safearray.cpp main.cpp
+         Safearray.cpp
+     1>c:\users\maclaurin\documents\visual studio 2010\projects\safearray\safearray\safearray.cpp(12): warning C4172: 返回局部变量或临时变量的地址
+         正在生成代码...
+         正在跳过...(未检测到相关更改)
+         main.cpp
+       Link:
+         e:\Soft\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Debug\Safearray.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Safearray.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Debug\Safearray.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Debug\Safearray.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Safearray.obj
+         LINK : 没有找到 C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Debug\Safearray.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Safearray.vcxproj -> C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Debug\Safearray.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Debug\Safearray.exe;#1" /manifest Debug\Safearray.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Safearray.unsuccessfulbuild”。
+         正在对“Debug\Safearray.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Maclaurin\documents\visual studio 2010\Projects\Safearray\Safearray\Safearray.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.96
