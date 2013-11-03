@@ -1,0 +1,34 @@
+﻿生成启动时间为 2013/11/3 星期日 20:42:08。
+     1>项目“C:\Users\Maclaurin\Documents\Visual Studio 2010\Projects\Staffmanage\Staffmanage\Staffmanage.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Staffmanage.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         e:\Soft\Visual Studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CTempStaff.cpp Menu.cpp
+         CTempStaff.cpp
+         正在生成代码...
+         正在编译...
+         Menu.cpp
+     1>c:\users\maclaurin\documents\visual studio 2010\projects\staffmanage\staffmanage\menu.cpp(119): warning C4101: “num”: 未引用的局部变量
+     1>c:\users\maclaurin\documents\visual studio 2010\projects\staffmanage\staffmanage\menu.cpp(169): warning C4101: “num”: 未引用的局部变量
+     1>c:\users\maclaurin\documents\visual studio 2010\projects\staffmanage\staffmanage\menu.cpp(167): warning C4101: “sex”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         e:\Soft\Visual Studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Maclaurin\Documents\Visual Studio 2010\Projects\Staffmanage\Debug\Staffmanage.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Staffmanage.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Maclaurin\Documents\Visual Studio 2010\Projects\Staffmanage\Debug\Staffmanage.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Maclaurin\Documents\Visual Studio 2010\Projects\Staffmanage\Debug\Staffmanage.lib" /MACHINE:X86 Debug\CAdministrator.obj
+         Debug\Cstaff.obj
+         Debug\CTeacher.obj
+         Debug\CTempStaff.obj
+         Debug\Lecturer.obj
+         Debug\main.obj
+         Debug\Menu.obj
+         Debug\Professor.obj
+         Debug\TODS.obj
+     1>CTempStaff.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class CStaff &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@AAVCStaff@@@Z) 已经在 CAdministrator.obj 中定义
+     1>Lecturer.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class CStaff &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@AAVCStaff@@@Z) 已经在 CAdministrator.obj 中定义
+     1>Professor.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class CStaff &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@AAVCStaff@@@Z) 已经在 CAdministrator.obj 中定义
+     1>TODS.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class CStaff &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@AAVCStaff@@@Z) 已经在 CAdministrator.obj 中定义
+     1>C:\Users\Maclaurin\Documents\Visual Studio 2010\Projects\Staffmanage\Debug\Staffmanage.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Users\Maclaurin\Documents\Visual Studio 2010\Projects\Staffmanage\Staffmanage\Staffmanage.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.21
