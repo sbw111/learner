@@ -11,6 +11,7 @@ sf::Texture Texture::ENEMY_DOWN_4;
 sf::Texture Texture::BULLET;
 
 sf::Texture Texture::SKY;
+sf::Texture Texture::OVER;
 
 void Texture::load(){
     std::string path = resourcePath() + "image\\shoot.png";
@@ -26,4 +27,5 @@ void Texture::load(){
     BULLET.loadFromFile(path, sf::IntRect(1004, 987, 9, 21));
     
     SKY.loadFromFile(resourcePath() + "image\\background.png");
+	OVER.loadFromFile(resourcePath() + "image\\gameover.png");
 }

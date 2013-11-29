@@ -17,6 +17,7 @@ public:
     static sf::Texture BULLET;
     
     static sf::Texture SKY;
+	static sf::Texture OVER;
     
     static void load();
 };

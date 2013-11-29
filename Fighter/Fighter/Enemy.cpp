@@ -10,9 +10,10 @@ Enemy::Enemy(){
     this->setTexture(Texture::ENEMY);
     
     uniform_int_distribution<unsigned> u(0,440);
+	uniform_int_distribution<unsigned> v(0,1);
     std::default_random_engine random_engine;
     this->setPosition(u(Game::random_engine), 20);
-    
+	this->speed = 0.5+(double)(v(Game::random_engine)/1.5);
     this->gun.setOwner(this);
 }
 
@@ -22,7 +23,7 @@ void Enemy::heartBeat(){
         case 0:
 			y=this->getPosition().y;
 			if (y >= 700) this->state = 4;
-				else this->move(0,0.7);
+				else this->move(0,this->speed);
             break;
         case 1:
             this->setTexture(Texture::ENEMY_DOWN_2);

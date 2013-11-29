@@ -1,11 +1,11 @@
-#ifndef __Fighters__Sky__
+﻿#ifndef __Fighters__Sky__
 #define __Fighters__Sky__
 
 #include <SFML/Graphics.hpp>
-
 #include "Sprite.h"
 #include "Enemy.h"
 #include "Bullet.h"
+#include "Hero.h"
 
 #include "Rect.h"
 
@@ -14,7 +14,7 @@
 #include <unordered_set>
 using namespace std;
 
-class Sky{
+class Sky:private Hero{
 public:
     static Sky* getInstance();
     
@@ -26,6 +26,7 @@ public:
     void addMyBullet(Bullet *);
     
     void refresh();
+	void isover();
 private:
     Sky();
     
@@ -35,6 +36,7 @@ private:
     unordered_set<Bullet * > myBullets;
     
     sf::Sprite* background=nullptr;
+	sf::Sprite* gameover=nullptr;
     
     static Sky* instance;
     
@@ -42,6 +44,7 @@ private:
     void collision();
     bool isCollision(const Rect& r1,const Rect& r2);
     void createEnemies();
+	long turn,level;
 };
 
 #endif /* defined(__Fighters__Sky__) */

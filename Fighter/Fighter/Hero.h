@@ -8,7 +8,7 @@
 class Hero:public Plane{
 public:
     Hero();
-    
+	Rect Position();
     void move2left();
     void move2right();
 	void move2down();

@@ -7,7 +7,6 @@
 #include "Texture.h"
 #include "Hero.h"
 #include "Sound.h"
-
 int main()
 {
 	int num = 0;
@@ -49,12 +48,12 @@ int main()
 				hero.move2down();
 			}
         }
-        
-        sky->refresh();
-		if (++num >= 30){
+        if (++num >= 30){
 			hero.fire();
 			num = 0;
 		}
+        sky->refresh();
+		
     }
     
     return EXIT_SUCCESS;

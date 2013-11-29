@@ -12,6 +12,7 @@ public:
     bool isDead();
 private:
     int state=0;
+	double speed;
 };
 
 #endif /* defined(__Fighters__Enemy__) */

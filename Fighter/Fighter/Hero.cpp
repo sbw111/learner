@@ -29,3 +29,12 @@ void Hero::move2up(){
 	if (y>20) this->move(0,-15);
 }
 
+Rect Hero::Position(){
+	Rect r;
+	r.x = this->getPosition().x-10;
+	r.y = this->getPosition().y+30;
+	r.w = this->getLocalBounds().width-20;
+	r.h = this->getLocalBounds().height-30;
+
+	return r;
+}
